@@ -24,7 +24,7 @@ ul {
 
 html {
     font-size: 125%;
-    font-family: 'Inter', sans-serif;
+    
     margin: 0;
 }
 
@@ -33,6 +33,7 @@ img {
 }
 
 h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
     color: rgb(231, 85, 32);
     text-transform: capitalize;
     font-weight: 500;
@@ -51,6 +52,7 @@ a:hover {
 p {
     font-size: .8rem;
     font-weight: 100;
+    font-family: 'Catamaran', sans-serif;
 }
 
 button {
@@ -61,6 +63,36 @@ button {
     font-size: .7rem;
     text-transform: uppercase;
 }
+
+/*MOBILE NAV INVISIBLE*/
+
+.display {
+    display: none;
+}
+.mobile-nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav div {
+    background-color: black;
+    margin: 5px 0;
+    width: 60px;
+    height: 8px;
+}
+
+.nav {
+    display: block;
+    margin: .5em 2em 0 2em;
+}
+
+.one,
+.two,
+.three {
+    width: 50px;
+
+}
+
 /*NAVIGATION STYLES*/
 
 .nav-wrap {
@@ -78,6 +110,7 @@ button {
     padding: 0 15px;
     text-transform: uppercase;
     font-size: .8rem;
+    font-family: 'Montserrat',sans-serif;
 }
 
 /*HEADER STYLES*/
@@ -103,6 +136,7 @@ button {
 
 .title-container h1 {
     padding-right: 50px;
+    font-weight: 400;
 }
 
 /*ASIDE STYLES*/
@@ -144,6 +178,7 @@ button {
 .text-container h3 {
     min-width: 300px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .text-container p {
@@ -170,6 +205,7 @@ button {
 .text-container-2 h3 {
     text-transform: uppercase;
     margin: 0;
+    font-weight: 700;
 }
 
 .text-container-2 p {
@@ -240,6 +276,7 @@ button {
     text-align: center;
     margin: 60px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .gallery ul {
@@ -278,6 +315,7 @@ button {
     display: flex;
     padding: 0 20px;
     text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
 }
 
 /*CONTAINER*/
@@ -296,6 +334,7 @@ button {
 
 .contact-wrap h3 {
     font-size: 1.4rem;
+    font-weight: 700;
     padding: 0 20px;
     text-transform: uppercase;
 }
@@ -315,6 +354,7 @@ button {
 
 .form-wrapper h3 {
     font-size: 1.4rem;
+    font-weight: 700;
     padding: 0 20px;
     text-transform: uppercase;
 }
@@ -401,8 +441,35 @@ button {
 }
 
 
-/*MOBILE NAV*/ 
+/*MOBILE NAV VISIBLE*/
+.display {
+    display: contents;
+}
 
+.mobile-nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.nav div {
+    background-color: black;
+    margin: 5px 0;
+    width: 60px;
+    height: 8px;
+}
+
+.nav {
+    display: block;
+    margin: .5em 2em 0 2em;
+}
+
+.one,
+.two,
+.three {
+    width: 50px;
+
+}
 
 /*HEADER STYLES MOBILE*/
 
@@ -455,6 +522,7 @@ button {
 
 .text-container h3 {
     min-width: 400px;
+    font-weight: 700;
 }
 
 button {
