@@ -155,7 +155,6 @@ button {
 
 .dessert-wrap {
     display: flex;    
-    width: calc(100% - 40px);
     align-items: center;
     padding: 0 0 0 40px;
 }
@@ -369,7 +368,10 @@ button {
 /*BASE STYLES MOBILE*/
 
 .wrapper {
-    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    max-width: 800px;
 }
 
 h3 {
@@ -397,6 +399,10 @@ button {
 .nav-wrap {
     display: none;
 }
+
+
+/*MOBILE NAV*/ 
+
 
 /*HEADER STYLES MOBILE*/
 
@@ -451,28 +457,29 @@ button {
     min-width: 400px;
 }
 
+button {
+    width: 60%;
+    align-items: center;
+}
+
 .text-container button {
-    text-align: center; 
-    justify-content: center;    
+    align-self: center;
 }
 /*DESSERT MOBILE*/
 
 .dessert-wrap {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction: column;   
 }
 
 .text-container-2 {
     padding: 40px 0px;
+    text-align: center;
 }
 
-.text-container-2 h3 {
-    align-items: center;
-}
-.text-container-2 > button {
-    padding: 20px 70px;
-    align-items: center;
+.dessert-wrap button {
+    align-self: center;
+    width: 50%;
 }
 
 .image-container-2 {
@@ -557,5 +564,6 @@ button {
     padding: 20px 60px;
     font-size: 1.1em;
 }
+
 
 }
